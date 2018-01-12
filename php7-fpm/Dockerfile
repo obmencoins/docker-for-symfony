@@ -2,6 +2,7 @@ FROM php:7.2-fpm-alpine
 ARG TIMEZONE
 
 RUN apk add --no-cache \
+  nano\
   vim \
   bash
 
